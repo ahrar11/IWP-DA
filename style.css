@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(206, 247, 248);
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: rgb(8, 151, 195);
+    color: #fff;
+}
+
+
+.nav-links a {
+    color: #fff;
+}
+
+.logo {
+    font-size: 32px;
+    justify-content: left;
+}
+
+.menu {
+    
+    display: flex;
+    font-size: 18px;
+}
+
+
+.menu li:hover {
+    background-color: rgb(88, 197, 199);
+    border-radius: 5px;
+    transition: 0.3s ease;
+}
+
+.menu li {
+    padding: 5px 14px;
+}
+
+.services {
+    position: relative;
+}
+
+.dropdown {
+    background-color: rgb(88, 197, 199);
+    padding: 1em 0;
+    position: absolute;
+    display: none;
+    border-radius: 8px;
+    top: 35px;
+}
+
+.dropdown li+li {
+    margin-top: 10px;
+}
+
+.dropdown li {
+    padding: 0.5em 1em;
+    width: 8em;
+    text-align: center;
+}
+
+.dropdown li:hover {
+    background-color: rgb(242, 174, 174);
+}
+
+.services:hover .dropdown {
+    display: block;
+}
+
+.sidebar{
+    background: black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 225px;
+    height: 100%;
+    padding: 20px 0;
+    margin-top: 57px;
+}
+
+.sidebar .profile{
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.sidebar .profile img{
+    display: block;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+.sidebar .profile h3{
+    color: #ffffff;
+    margin: 10px 0 5px;
+}
+
+.sidebar .profile p{
+    color: rgb(49, 8, 195);
+    font-size: 14px;
+}
+.sidebar ul {
+    padding-top: 10px;
+}
+.sidebar ul li a{
+    display: block;
+    padding: 13px 30px;
+    border-bottom: none;
+    color: rgb(241, 237, 237);
+    font-size: 16px;
+    position: relative;
+}
+
+.sidebar ul li a:hover{
+    color: gray;
+
+    background:white;
+    border-right: 5px solid rgb(42, 8, 195);
+}
+
+.main-body img {
+    width: 150px;
+    height: 150px;
+    margin-top: 60px;
+}
+
+.main-body div {
+   display: inline-block;
+}
+
+.main-body div {
+    font-size: 14px;
+    text-align: right;
+ }
+
+.summary {
+    margin:30px;
+    padding: 30px;
+    width: 500px;
+    background-color: rgb(88, 197, 199);
+    text-align: left;
+    color: white;
+    border-radius: 10px;
+}
+
+.projects table tr td a img {
+    width: 150px;
+    height: 100px;
+    margin: 10px;
+    border-radius: 5px;
+}
